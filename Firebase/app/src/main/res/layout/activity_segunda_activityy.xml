@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.francisco.firebase.SegundaActivityy">
+
+
+    <TextView
+        android:id="@+id/mensajeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="Bienvenido"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/mensajeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_below="@+id/mensajeTextView"
+
+        />
+    <EditText
+        android:id="@+id/mensaje2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de control"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_below="@+id/mensajeEditText"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+
+        <Button
+            android:id="@+id/nuevo"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+
+            android:text="Registrar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
